@@ -35,6 +35,10 @@
 <div class="row">
   <div class="col-2"></div>
 
+
+
+  
+
 @foreach($cities as $city)
 <div class="card" style="width: 20rem;">
   <img class="card-img-top" src="{{ asset('uploads/cities/'.$city->image)}}" rel="nofollow" alt="Card image cap">
